@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(232,238, 238);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input-container{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.input-container input[type="text"]{
+    width: 70%;
+}
+.input-container input[type="button"]{
+    background-color: #3da33d;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.input-container input[type="button"]:hover{
+    background-color: #60b160;
+}
+
+ul{
+     width: 70% ;
+     max-width: 450px;
+     /* display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+}
+ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 0.125px solid #a19f9f;
+    padding: 6px 12px;
+    background-color: #ffffff;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     transition: background-color 0.5s;
+}
+
+/* ul li:hover{
+    background-color: #cbcaca;
+} */
+
+
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+.btn{
+    border:none;
+    outline: none;
+    font-size: 16px;
+    background-color:#ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    
+}
+.deletebtn{
+    color: red;
+}
+.editbtn{
+    color:#008000;
+}
